@@ -6,25 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título</title>
     <style>
-      body {
-        background-color: rgb(172, 88, 67);
+      body,p{
+        background-color: #121212;
         color: white;
-        font: italic 20pt Times;
+        font: italic 15pt Times;
+        text-align: center;
+        margin: 2px;
+        display: block
+        }
+        
+        p1{
+        color: red;
+        font: italic 12pt Times;
+        margin: 2px;
+        display: block
       }
-
-      h1 {color: brown;
+      h1{
+      color: red;
+      font: italic 20pt Times;
+      }
       
-      }
     </style>
 </head>
 <body>
-  <h1>Olá, Mundo!</h1>
-  <p>Aprendizado</p>
+<h1>Olá, Mundo!</h1>
+<p>Estou aprendendo os primeiros passos para me tornar um programador.</p>
+<p1>I'm learning the first steps to become a programmer.</p1>
+
   <script>
     var n1 = Number(window.prompt('Numero 1 '))
     var n2 = Number(window.prompt('Numero 2 '))
     var s1 = n1 + n2
-    var s2 = window.alert(`A soma entre ${n1} + ${n2} é igual a ${s1}`)
+    var s1 = window.alert(`A soma entre ${n1} + ${n2} é igual a ${s1}`)
 </script>
 </body>
 </html>
